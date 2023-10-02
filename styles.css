@@ -25,6 +25,17 @@ nav a {
   color: #65e2eb
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 section {
   margin-left: 20px;
   font-family: "Audiowide";
