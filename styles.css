@@ -5,3 +5,7 @@ body {
 h3 {
   background: #bd9c5e
 }
+
+nav li {
+  display: inline-block;
+}
