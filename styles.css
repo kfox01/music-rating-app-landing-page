@@ -2,9 +2,9 @@ body {
   background: #4c5156
 }
 
-h3 {
+.navbar {
   background: #4c5156;
-  border: 2px solid #fff;
+  border: 2px solid #65e2eb;
   font-family: "Audiowide"
 }
 
@@ -16,12 +16,12 @@ nav ul {
 }
 
 nav li {
-  margin: 0 50px;
+  margin: 0 20px;
 }
 
 nav a {
   text-decoration: none;
-  color: #adab79
+  color: #65e2eb
 }
 
 section {
@@ -29,6 +29,10 @@ section {
   font-family: "Audiowide";
 }
 
-body {
-  font-family: "Audiowide";
+iframe {
+  border: 2px solid #65e2eb;
+}
+
+#aboutpage {
+  font-family: "Audiowide"
 }
