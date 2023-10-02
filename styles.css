@@ -7,13 +7,13 @@ h3 {
 }
 
 nav ul {
-  text-align: right;
-  list-style: none;
   display: flex;
+  list-style: none;
   padding: 10px;
 }
 
 nav li {
+  text-align: right;
   margin: 0 15px;
 }
 
