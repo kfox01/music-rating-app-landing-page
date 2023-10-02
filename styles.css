@@ -3,7 +3,7 @@ body {
 }
 
 h3 {
-  background: #bd9c5e
+  background: #533164
 }
 
 nav ul {
@@ -13,10 +13,10 @@ nav ul {
 }
 
 nav li {
-  text-align: right;
   margin: 0 15px;
 }
 
 nav a {
   text-decoration: none;
+  color: #adab79
 }
