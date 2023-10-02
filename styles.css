@@ -3,20 +3,32 @@ body {
 }
 
 h3 {
-  background: #533164
+  background: #4c5156;
+  border: 2px solid #fff;
+  font-family: "Audiowide"
 }
 
 nav ul {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
-  padding: 10px;
+  margin-right: 20px;
 }
 
 nav li {
-  margin: 0 15px;
+  margin: 0 50px;
 }
 
 nav a {
   text-decoration: none;
   color: #adab79
+}
+
+section {
+  margin-left: 20px;
+  font-family: "Audiowide";
+}
+
+body {
+  font-family: "Audiowide";
 }
