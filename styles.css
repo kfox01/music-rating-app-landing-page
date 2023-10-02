@@ -5,7 +5,8 @@ body {
 .navbar {
   background: #4c5156;
   border: 2px solid #65e2eb;
-  font-family: "Audiowide"
+  font-family: "Audiowide";
+  margin: 20px;
 }
 
 nav ul {
@@ -16,7 +17,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
 nav a {
@@ -29,12 +30,8 @@ section {
   font-family: "Audiowide";
 }
 
-iframe {
-  border: 2px solid #65e2eb;
-}
-
-#aboutpage {
-  font-family: "Audiowide"
+body {
+  font-family: "Audiowide";
 }
 
 
@@ -52,3 +49,12 @@ iframe {
   width: 180px;
   height: 150px;
 }
+
+iframe {
+  border: 2px solid #65e2eb;
+}
+
+#aboutpage {
+  font-family: "Audiowide"
+}
+
