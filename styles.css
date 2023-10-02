@@ -29,6 +29,27 @@ section {
   font-family: "Audiowide";
 }
 
+
+body {
+  font-family: "Audiowide";
+}
+
+
+.resized-stars {
+  width: 280px;
+  height: 100px;
+}
+
+.resized-review{
+  width: 150px;
+  height: 150px;
+}
+
+.resized-talking{
+  width: 180px;
+  height: 150px;
+}
+=======
 iframe {
   border: 2px solid #65e2eb;
 }
@@ -36,3 +57,4 @@ iframe {
 #aboutpage {
   font-family: "Audiowide"
 }
+
