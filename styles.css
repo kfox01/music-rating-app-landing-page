@@ -8,9 +8,9 @@ h3 {
 
 nav ul {
   text-align: center;
+  display: flex;
 }
 
 nav li {
-  display: inline-block;
-  margin: 40px;
+  margin: 0 15px;
 }
