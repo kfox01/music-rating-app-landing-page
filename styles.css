@@ -6,11 +6,12 @@ h3 {
   background: #bd9c5e
 }
 
+nav ul {
+  text-align: center;
+}
+
 nav li {
   display: inline-block;
   padding: 20px;
   margin: 5px;
-  text-align: center;
-
-
 }
