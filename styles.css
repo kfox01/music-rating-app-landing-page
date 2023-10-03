@@ -2,28 +2,32 @@ body {
   background: white;
 }
 
+.nav {
+  background: rgb(162, 91, 24);
+  padding: 10px;
+}
+
 .navbar {
   font-family: "Audiowide";
+  width: 95%;
+  margin: 0 auto;
+}
+
+.resized-logo {
+  height: 10%;
+  width: 20%;
+  float: left;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  border-bottom: 2px solid #252628;
-}
-
-.nav-items {
-  flex: 1;
-  padding: 0px;
-  margin-left: 5px;
-  font-size: 8pt;
-  text-align: center;
 }
 
 nav a {
   text-decoration: none;
-  color: #363a3b
+  color: #000000
 }
 
 .tab {
@@ -55,7 +59,7 @@ body {
 
 .resized-stars {
   width: 280px;
-  height: 100px;
+  height: 80px;
 }
 
 .resized-review {
@@ -73,11 +77,6 @@ body {
   height: 70px;
 }
 
-.resized-logo {
-  width: 100%;
-  height: 60%;
-}
-
 iframe {
   width: 100%;
   margin: 0px;
@@ -87,4 +86,10 @@ iframe {
 #aboutpage {
   font-family: "Audiowide";
   height: 100%;
+}
+
+button {
+  border: 2px solid #000;
+  background-color: white;
+  font-family: "Audiowide"
 }
