@@ -80,14 +80,60 @@ nav a {
 /* COVER PAGE ENDS HERE */
 
 /* FEATURES BEGINS HERE */
+
+
+
+#feature1 {
+  background: brown;
+  width: 43vw;
+  height: 28vh;
+  float: left;
+  margin-right: 2vw;
+}
+
+.feature1help {
+  float: left;
+  padding: 0 2vw;
+}
+
+#feature2 {
+  float: right;
+  background: blue;
+  width: 43vw;
+  height: 28vh;
+}
+
+.feature2help {
+  width: 25vw;
+  float: right;
+  margin-left: 1vw;
+  padding: 5vh 1vw;
+}
+
+#feature2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#feature3 {
+  margin-top: 1vh;
+  padding: 0 2vw;
+  text-align: center;
+  background: black;
+  max-width: 100%;
+}
+
 .resized-stars {
   width: 20vw;
   height: 9vh;
 }
 
 .resized-review {
-  width: 11vw;
-  height: 22vh;
+  width: 10vw;
+  height: auto;
+  float: right;
+  padding: 4vh 0;
 }
 
 .resized-talking {
