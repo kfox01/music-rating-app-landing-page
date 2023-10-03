@@ -1,46 +1,52 @@
 body {
-  background: #4c5156
+  background: white;
 }
 
 .navbar {
-  background: #4c5156;
-  border: 2px solid #65e2eb;
   font-family: "Audiowide";
-  margin: 20px;
 }
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   list-style: none;
-  margin-right: 20px;
+  border-bottom: 2px solid #252628;
 }
 
-nav li {
-  margin: 0 50px;
+.nav-items {
+  flex: 1;
+  padding: 0px;
+  margin-left: 5px;
+  font-size: 8pt;
+  text-align: center;
 }
 
 nav a {
   text-decoration: none;
-  color: #65e2eb
+  color: #363a3b
 }
 
-.column {
-  float: left;
-  width: 50%;
+.tab {
+  display: flex;
+  flex-direction: row;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column1 {
+  width: 70%;
+}
+
+.column2 {
+  width: 30%;
 }
 
 section {
-  margin-left: 20px;
+  margin: 20px;
   font-family: "Audiowide";
 }
 
+#prices {
+  font-size: 8pt;
+}
 
 body {
   font-family: "Audiowide";
@@ -68,14 +74,17 @@ body {
 }
 
 .resized-logo {
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 60%;
 }
 
 iframe {
-  border: 2px solid #65e2eb;
+  width: 100%;
+  margin: 0px;
+  border: none;
 }
 
 #aboutpage {
-  font-family: "Audiowide"
+  font-family: "Audiowide";
+  height: 100%;
 }
