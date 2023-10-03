@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  margin: 20px;
+  margin: 5%;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -14,7 +14,7 @@ section {
   font-family: 'Kosugi Maru', sans-serif;
   width: 95%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 2%;
   border-bottom: 1px solid rgb(168, 168, 169);
 }
 
@@ -27,7 +27,7 @@ section {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px 0;
+  padding: 1% 0;
 }
 
 nav li {
@@ -39,7 +39,7 @@ nav a {
   text-align: center;
   color: rgb(168, 168, 169);
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 1vh 3vw;
 }
 
 /* NAVIGATION BAR ENDS HERE */
@@ -53,7 +53,7 @@ nav a {
 
 .resized-astronaut {
   margin: 0;
-  padding: 58px 10px;
+  padding: 5vh 1vw;
   border: none;
   width: 29%;
   height: auto;
@@ -64,8 +64,8 @@ nav a {
   font-size: 20pt;
   color: rgb(168, 168, 169);
   position: absolute;
-  top: 30px;
-  left: 40px;
+  top: 4.5vh;
+  left: 3vw;
 }
 
 .cover-text2 {
@@ -73,26 +73,26 @@ nav a {
   font-size: 20pt;
   color: rgb(168, 168, 169);
   position: absolute;
-  bottom: 100px;
-  right: 80px;
+  bottom: 19vh;
+  right: 7vw;
 }
 
 /* COVER PAGE ENDS HERE */
 
 /* FEATURES BEGINS HERE */
 .resized-stars {
-  width: 280px;
-  height: 60px;
+  width: 20vw;
+  height: 9vh;
 }
 
 .resized-review {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
 }
 
 .resized-talking {
-  width: 180px;
-  height: 150px;
+  width: 13vw;
+  height: 22vh;
 }
 
 /* FEATURES ENDS HERE */
@@ -110,7 +110,7 @@ nav a {
 
 iframe {
   width: 100%;
-  margin: 0px;
+  margin: 0;
   border: none;
 }
 
@@ -131,8 +131,8 @@ iframe {
 }
 
 .resized-vip {
-  width: 100px;
-  height: 70px;
+  width: 7vw;
+  height: 10vh;
 }
 
 button {
@@ -143,4 +143,5 @@ button {
 }
 
 /* PRICING ENDS HERE */
+
 /* ABOUT/PRICING TABLE ENDS HERE */
