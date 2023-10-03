@@ -81,14 +81,13 @@ nav a {
 
 /* FEATURES BEGINS HERE */
 
-
-
 #feature1 {
   background: brown;
   width: 43vw;
   height: 28vh;
   float: left;
   margin-right: 2vw;
+  margin-bottom: 2vh;
 }
 
 .feature1help {
@@ -101,6 +100,7 @@ nav a {
   background: blue;
   width: 43vw;
   height: 28vh;
+  margin-bottom: 2vh;
 }
 
 .feature2help {
@@ -117,11 +117,12 @@ nav a {
 }
 
 #feature3 {
-  margin-top: 1vh;
-  padding: 0 2vw;
+  display: block;
+  padding: 1vh 2vw;
   text-align: center;
   background: black;
   max-width: 100%;
+
 }
 
 .resized-stars {
