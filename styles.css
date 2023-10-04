@@ -62,7 +62,7 @@ nav a {
 
 .cover-text1 {
   font-family: 'Kosugi Maru', sans-serif;
-  font-size: 20pt;
+  font-size: 1.8vw;
   color: rgb(168, 168, 169);
   position: absolute;
   top: 4.5vh;
@@ -71,7 +71,7 @@ nav a {
 
 .cover-text2 {
   font-family: 'Kosugi Maru', sans-serif;
-  font-size: 20pt;
+  font-size: 1.8vw;
   color: rgb(168, 168, 169);
   position: absolute;
   bottom: 19vh;
@@ -151,7 +151,8 @@ iframe {
 }
 
 #prices {
-  font-size: 8pt;
+  padding: 4vh 0;
+  font-size: 1vw;
 }
 
 .resized-vip {
@@ -163,7 +164,7 @@ button {
   border: 2px solid #000;
   background-color: white;
   font-family: 'Kosugi Maru', sans-serif;
-  font-size: 6pt;
+  font-size: 1vw;
 }
 
 /* PRICING ENDS HERE */
@@ -180,6 +181,6 @@ button {
 .soc {
   width: 5vw;
   height: auto;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
