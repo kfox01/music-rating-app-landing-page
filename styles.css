@@ -1,5 +1,6 @@
 body {
-  background: rgb(42, 83, 46);
+  background: linear-gradient(to bottom, rgb(0, 0, 0), #231a67);
+  /*background: rgb(42, 83, 46);*/
   font-family: 'Kosugi Maru', sans-serif;
   color: rgb(168, 168, 169);
 }
