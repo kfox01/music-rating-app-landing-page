@@ -15,7 +15,7 @@ section {
   font-family: 'Kosugi Maru', sans-serif;
   width: 95%;
   margin: 0 auto;
-  padding: 2%;
+  padding: 3%;
   border-bottom: 1px solid rgb(168, 168, 169);
 }
 
@@ -54,7 +54,7 @@ nav a {
 
 .resized-astronaut {
   margin: 0;
-  padding: 3vh 1vw;
+  padding: 4vh 1vw;
   border: none;
   width: 29%;
   height: auto;
@@ -82,65 +82,41 @@ nav a {
 
 /* FEATURES BEGINS HERE */
 
-#feature1 {
-  background: brown;
-  width: 43vw;
-  height: 28vh;
-  float: left;
-  margin-right: 2vw;
-  margin-bottom: 2vh;
+#features {
+  display: flex;
+  justify-content: space-between;
 }
 
-.feature1help {
-  float: left;
-  padding: 0 2vw;
-}
-
-#feature2 {
-  float: right;
-  background: blue;
-  width: 43vw;
-  height: 28vh;
-  margin-bottom: 2vh;
-}
-
-.feature2help {
-  width: 25vw;
-  float: right;
-  margin-left: 1vw;
-  padding: 5vh 1vw;
-}
-
-#feature2::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#feature3 {
-  display: block;
-  padding: 1vh 2vw;
+.feature {
   text-align: center;
-  background: rgb(255, 255, 255);
-  max-width: 100%;
+  background: linear-gradient(to bottom, #231a67, rgb(0, 0, 0));
+  width: 30vw;
+  padding: 2vw;
+  height: auto;
+  margin: 1vw;
+
 
 }
 
 .resized-stars {
+  filter: invert(100%);
   width: 20vw;
   height: 9vh;
+  padding: 2vh 0;
 }
 
 .resized-review {
+  filter: invert(100%);
   width: 10vw;
   height: auto;
-  float: right;
-  padding: 4vh 0;
+  padding: 2vh 0;
 }
 
 .resized-talking {
+  filter: invert(100%);
   width: 13vw;
   height: 22vh;
+  padding: 2vh 0;
 }
 
 /* FEATURES ENDS HERE */
